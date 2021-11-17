@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  height: 100px;
+  height: 50px;
   background: var(--darkGrey);
   padding: 0 20px;
 `;
@@ -21,10 +21,10 @@ export const Content = styled.div`
     position: absolute;
     left: 15px;
     top: 14px;
-    width: 30px;
+    width: 20px;
   }
   input {
-    font-size: 28px;
+    font-size: 24px;
     position: absolute;
     left: 0px;
     margin: 8px 0;
@@ -32,7 +32,7 @@ export const Content = styled.div`
     border: 0;
     width: 95%;
     background: transparent;
-    height: 40px;
+    height: 30px;
     color: var(--white);
     :focus {
       outline: none;

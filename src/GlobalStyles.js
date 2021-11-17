@@ -4,8 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --maxWidth: 1280px;
     --white: #fff;
-    --lightGrey: #eee;
-    --medGrey: #353535;
+    --offWhite: #E9EBEC;
     --darkGrey: #1c1c1c;
     --fontBig: 2.5rem;
     --fontMed: 1.5rem;
@@ -21,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     padding: 0;
     margin: 0;
+    background-color: var(--offWhite);
 
     h1{
       font-size: 2rem;
